@@ -15,8 +15,8 @@ $strName = fread(STDIN, 80); // Read up to 80 characters or a newline
 echo 'Hello ' , $strName , "\n";
 
 $postData = array(
-    'j_username' => 'cyberfingaz2007',
-    'j_password' => 'miracle2013',
+    'j_username' => '-----',
+    'j_password' => '-----',
     'crumb' => 'f081e039f0601d03b7d4ef1a62162025',
     'redirect_to' => 'http://localhost:8080/api/json?pretty=true'
 );
