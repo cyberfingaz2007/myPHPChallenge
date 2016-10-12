@@ -1,0 +1,11 @@
+{% extends '::base.html.twig' %}
+{% block content %}
+    <div class = "jumbotron">
+      <h1>Welcome to My PHP Challenge!</h1>
+      <p>You may make use of the links in the Nav Bar to manipulate the small Application.</p>
+
+      <p>
+        <a class = "btn btn-primary btn-lg" role = "button" href = "{{ path('jumain_list_client') }}">View Client List</a>
+      </p>
+    </div>
+{% endblock %}

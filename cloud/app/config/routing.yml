@@ -1,0 +1,3 @@
+jumain_challenge:
+    resource: "@JUMAINChallengeBundle/Resources/config/routing.yml"
+    prefix:   /

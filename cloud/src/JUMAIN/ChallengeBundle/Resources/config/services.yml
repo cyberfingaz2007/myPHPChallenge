@@ -1,0 +1,4 @@
+services:
+#    jumain_challenge.example:
+#        class: JUMAIN\ChallengeBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

@@ -1,0 +1,7 @@
+The following are what I took into consideration
+
+
+- I chose symfony because its a framework that lets me define my direction without much restrictions
+- It has cross Site Request Forgery Protection because by default Symfony embeds and validates CSRF token in the forms automatically.
+
+- As for SQL Injection i am not at risk to that because i am not performing any query that requires direct user input, moreover, the doctrine orm being used alongside symfony protect the app from any Injection.

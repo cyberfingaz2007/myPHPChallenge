@@ -1,0 +1,15 @@
+jumain_challenge_homepage:
+    path:     /
+    defaults: { _controller: JUMAINChallengeBundle:Default:index }
+
+jumain_list_client:
+    path:     /list
+    defaults: { _controller: JUMAINChallengeBundle:Default:listClient }
+
+jumain_add_client:
+    path:     /add
+    defaults: { _controller: JUMAINChallengeBundle:Default:addClient }
+
+jumain_upd_client:
+    path:     /upd
+    defaults: { _controller: JUMAINChallengeBundle:Default:updClient }
